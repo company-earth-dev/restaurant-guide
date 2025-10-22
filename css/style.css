@@ -1,1 +1,19 @@
- 
+ .hero {
+    background: linear-gradient(rgba(0,0,0,0.5), url('hero-bg.jpg'));
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ff7f50; /* เปลี่ยนเป็นสีที่คุณต้องการ */
+    cursor: pointer;
+}
